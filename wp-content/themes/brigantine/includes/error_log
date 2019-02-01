@@ -1,0 +1,1 @@
+[14-Nov-2016 22:42:48 America/Los_Angeles] PHP Fatal error:  Call to undefined function et_get_option() in /home/briga2/public_html/wp-content/themes/Brigantine/includes/social_icons.php on line 3

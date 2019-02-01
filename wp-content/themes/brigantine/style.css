@@ -1,0 +1,1192 @@
+/*
+
+ Theme Name:     Brigantine Inn
+ Theme URI:      http://brigantineinn.com/
+ Description:    Brigantine Inn custom template
+ Author:         Matt Cyr
+ Author URI:     http://mspacecreative.com
+ Template:	     Divi
+ Version:        1.0.0
+ 
+*/
+
+/*--------------------------------------------------------
+-----------------------STICKY FOOTER----------------------
+---------------------------------------------------------*/
+
+* {
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: content-box!important;
+    -o-box-sizing: content-box!important;
+}
+#footer-bottom, #main-footer {
+	background: #0d2154!important;
+}
+
+.wp-caption.alignright {
+    margin: 8px 0 20px 20px;
+}
+
+#fancybox-wrap {
+	z-index: 999999!important;
+}
+
+#shiftnav-toggle-main-button, .shiftnav.shiftnav-shiftnav-main.shiftnav-skin-standard-dark, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu {
+	background: #0d2154!important;
+}
+
+.shiftnav:after {
+	display: none!important;
+}
+
+#fancybox-overlay {
+	z-index: 999999!important;
+}
+
+#top-header {
+	background: #0d2154!important;
+}
+
+#et-info, #et-info-email, #top-header a {
+	color: #fff!important;
+	text-align: right!important;
+	float: none;
+}
+
+.video-bg {
+	position: relative;
+	height: 100vh;
+}
+
+.arrow-down-button i {
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	font-family: fontAwesome;
+	font-size: 60px;
+	left: 50%;
+	margin-left: -19px;
+	color: #fff;
+}
+
+#top-header.shrink {
+	display: none;
+}
+
+.video-overlay-elements.et_pb_row {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+.video-bg .et_pb_code.vimeo-button {
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	margin: 50px 0 0;
+}
+
+.video-bg .et_pb_code.vimeo-button a {
+	padding: 10px 15px;
+	border: 1px solid #fff;
+	transition: all .25s ease-in-out;
+	color: #fff;
+}
+
+.video-bg .et_pb_code.vimeo-button a:hover {
+	background: rgba(255, 255, 255, .25);
+	transition: all .25s ease-in-out;
+}
+
+.intro-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	width: 90%;
+}
+
+.et_pb_bg_layout_dark p {
+	color: #fff;
+}
+
+.intro-text h1 {
+	color: #fff;
+	font-family: "recherche", "adobe-caslon-pro", serif!important;
+}
+
+.intro-text ~ a {
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	font-family: fontAwesome;
+	font-size: 60px;
+	left: 50%;
+	margin-left: -19px;
+	color: #fff;
+}
+
+/*--------------------------------------------------------
+--------------------------HEADER--------------------------
+---------------------------------------------------------*/
+
+#main-header {
+  position: fixed;
+  top: 0;
+  background: url('images/white-wood.jpg') left top	;
+  z-index: 9999!important;
+}
+
+.container {
+	max-width: 1280px;
+	width: 90%;
+}
+
+.home-slider .et_pb_row, #explore-sec .et_pb_row, #gallery .et_pb_row {
+	max-width: 1280px;
+}
+
+#logo {
+	max-height: 50px;
+	margin-top: 15px;
+}
+
+.trip-size {
+	max-width: 20px;
+	max-height: 12px;
+}
+
+#top-menu li {
+	font-weight: 700;
+	padding-right: 	18px;
+}
+
+#top-menu li > a {
+	color: #8f0000;
+}
+
+.et-fixed-header nav#top-menu-nav {
+	padding-top: 14px!important;
+}
+
+.nav li ul {
+	padding: 0;
+}
+
+#top-menu li li a {
+	padding: 5px 15px;
+}
+
+.nav li ul {
+	top: 48px;
+}
+
+.et_mobile_menu, .nav li ul, .et-search-form {
+	border-color: #8f0000!important;
+}
+
+#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a {
+	color: #0d2154!important;
+	font-weight: 900;
+}
+
+ul.sub-menu li, ul.sub-menu li a {
+	width: 100%!important;
+}
+
+ul.sub-menu li a {
+	padding: 10px 15px!important;
+}
+
+ul.sub-menu li {
+	padding: 0!important;
+}
+
+#et-top-navigation {
+	padding-left: 0!important;
+}
+
+#top-header {
+	color: #fff!important;
+	font-size: 16px!important;
+}
+
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+	margin: 10px auto;
+	padding: 0;
+}
+
+/* FONTS
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "adobe-caslon-pro", serif!important;
+	font-style: normal;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 40px!important;
+}
+
+.read-more-button h2 {
+	margin-top: 0;
+}
+
+h2 {
+	margin-top: 15px;
+}
+
+h3 {
+	line-height: 33px;
+}
+
+#rez_container p, p, .tab-table .et_pb_tabs_controls {
+	font-size: 18px;
+	color: #000;
+	line-height: 1.5em;
+	font-family: "jaf-bernino-sans-condensed", sans-serif!important;
+}
+
+body {
+	font-family: "jaf-bernino-sans-condensed", sans-serif!important;
+}
+
+.white-glow {
+	text-shadow: 0 0 30px #fff;
+}
+
+.et-pb-active-slide .et_pb_slide_description {
+	-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+}
+
+.headertext {
+	font-size: 30px;
+	font-family: 'Cantata One', Georgia, "Times New Roman", serif;
+	margin-bottom: 25px;
+	line-height: 1.25em;
+}
+
+.date-input {
+	margin-right: 20px!important;
+}
+
+.num_select {
+	margin: 0 20px 0 5px!important;
+}
+
+.et_pb_all_tabs {
+	color: #fff!important;
+}
+
+/* ROOMS GALLERY
+----------------------------------------------------------*/
+
+.photo-box {
+	position: relative;
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.photo-box:nth-child(2n) {
+	margin-right: 0;
+}
+.inner {
+	position: relative;
+	width: 100%;
+	float: left;
+	width: 48%;
+}
+.photo-box img {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.room-caption {
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+	color: #fff;
+	margin: 0;
+	text-shadow: 0 0 15px #000;
+	font-size: 20px;
+	font-weight: bold;
+}
+p.description {
+	position: relative;
+	margin-bottom: 0;
+}
+.dark p {
+	color: #000;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.inner-photo {
+	position: relative;
+}
+.img-hover {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, .55);
+	opacity: 0;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.25s ease-in;
+	-webkit-transition: 0.25s ease-in;
+	-moz-transition: 0.25s ease-in;
+	-o-transition: 0.25s ease-in;
+}
+.photo-box a {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, .55);
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+}
+.img-hover:hover {
+	opacity: 1;
+	z-index: 2;
+}
+.read-more span {
+	background: #f5f5f5;
+	color: #333;
+	padding: 10px 15px;
+	border-radius: 80px;
+}
+.read-more-container {
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.read-more {
+	display: table-cell;
+	vertical-align: middle;
+}
+.read-more p {
+	margin: 0;
+}
+
+.full-width-img img {
+	width: 100%;
+}
+
+/* ROOMS GALLERY 3-UP
+----------------------------------------------------------*/
+
+.threeup .photo-box {
+	position: relative;
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.threeup .photo-box:nth-child(3n) {
+	margin-right: 0;
+}
+
+/* BACKGROUNDS
+----------------------------------------------------------*/
+
+.rice-bg {
+	background: url('images/rice-paper.jpg') left top;
+}
+
+.top-image {
+	background-position: top left;
+	background-attachment: scroll;
+	background-size: contain;
+}
+
+.et_pb_row {
+	max-width: 1280px;
+	position: relative;
+	z-index: 1;
+}
+
+.page-background {
+	background: url('images/waterfront-bg.jpg') no-repeat no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.page-background:after {
+	content: "";
+	background: rgba(255, 255, 255, .8);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.wh-overlay:after {
+	content: "";
+	background: rgba(255, 255, 255, .5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.dk-overlay:after {
+	content: "";
+	background: rgba(0, 0, 0, .55);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* BOOK BUTTON
+----------------------------------------------------------*/
+
+.book-button {
+	max-width: 200px;
+	position: relative;
+	top: -25px;
+}
+
+#wysiwyg_widgets_widget-4.et_pb_widget {
+	margin-bottom: 0;
+}
+
+#rez_container p {
+	line-height: 30px;
+}
+
+.res-bg {
+	background: url('images/taupe-bg.jpg') repeat top left!important;
+	border: 1px solid #8f0000!important;
+	border-radius: 10px!important;
+}
+
+.et_pb_tabs_controls li a {
+	padding: 0;
+}
+
+/*--------------------------------------------------------
+----------------------At Home Line------------------------
+---------------------------------------------------------*/
+
+.at-home h1 {
+	color: #000;
+	font-family: "recherche", "adobe-caslon-pro", serif!important;
+	padding: 0;
+}
+
+@media (min-width: 980px) {
+
+.at-home h1 {
+	font-size: 70px!important;
+}
+
+.home .at-home h1 {
+	font-size: 55px!important;
+}
+}
+
+@media (max-width: 540px) {
+
+.at-home h1 {
+	font-size: 30px!important;
+}
+}
+
+.at-home-bg {
+	background: url('images/canvas-2.png');
+	background-position-y: 99%;
+	padding: 0!important;
+}
+
+.decorated p {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*--------------------------------------------------------
+----------------------FEATURE SLIDER----------------------
+---------------------------------------------------------*/
+
+.home-slider, .home-slider .et_pb_row {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.et_pb_slider .et_pb_slide {
+	box-shadow: inset 0 5px 5px #666!important;
+}
+
+#et_mobile_nav_menu {
+	display: none!important;
+}
+
+.home-slider {
+	background: url('images/wood-knots.jpg') no-repeat center center scroll;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	box-shadow: inset 0 5px 5px #666;
+}
+
+html .et_pb_slide {
+  padding: 0;
+}
+
+.home-slider .et_pb_slide_description {
+	padding: 22% 8%;
+}
+
+.home-slider .et_pb_slider.et_pb_slider_fullwidth_off.et_slider_auto.et_slider_speed_4000.et_pb_bg_layout_dark {
+	margin-bottom: 0;
+}
+
+.home .home-slider .et_pb_slide:nth-child(4n) {
+	background-position: center bottom;
+}
+
+.home-slider.et_pb_section_1:after {
+	content: "";
+	background: url('images/rope.png') repeat-x;
+	height: 10px;
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	box-shadow: 0 -5px 15px #666;
+	left: 0;
+	bottom: -5px;
+}
+
+/*--------------------------------------------------------
+--------------------THE INN / THE ANNEX-------------------
+---------------------------------------------------------*/
+
+#guest-rooms img:hover {
+	opacity: .75;
+}
+
+.guest-room .et_pb_column {
+	text-align: center;
+}
+
+.guest-room {
+	padding: 20px 0;
+}
+
+.guest-room .et_pb_row {
+	padding: 0;
+}
+
+.guest-room .et_pb_row:last-child {
+	/*padding: 0 0 30px 0;*/
+}
+
+#center-img .et_pb_column_1_2 {
+	border-right: 1px solid #fff;
+	margin-right: 0;
+}
+
+#center-img .et_pb_column_1_2:last-child {
+	margin-right: 0;
+	border-right: none;
+}
+
+.canvas-bg {
+	background: url('images/canvas-no-rope.jpg') left top;
+	border-top: 1px solid #8f0000;
+	border-bottom: 1px solid #8f0000;
+}
+
+.et_section_specialty .et_pb_row {
+	max-width: 1280px;
+}
+
+.et_pb_row {
+	width: 90%;
+}
+
+/*--------------------------------------------------------
+----------------------EXPLORE THE AREA--------------------
+---------------------------------------------------------*/
+
+#explore-sec {
+	background: url('images/waterfront.jpg')no-repeat center center scroll;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#sb-images #image-1, #sb-images #image-2, #sb-images #image-3 {
+	width: 100%;
+	border: 1px solid #e9e9e9;
+	height: 175px;
+}
+
+#fancybox-content a {
+	color: #8f0000!important;
+}
+
+#image-1, #image-2 {
+	margin-bottom: 15px;
+}
+
+#image-1, #image-2, #image-3 {
+	width: 100%;
+	border: 1px solid #fff;
+}
+
+#image-1 p, #image-2 p, #image-3 p {
+	padding: 0!important;
+}
+
+#image-1 {
+	background: url('images/tall-ship-img.jpg') no-repeat left bottom;
+	position: relative;
+	width: 100%;
+	height: 240px;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#image-1 a, #image-2 a, #image-3 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+
+#overlay {
+	background:rgba(0,0,0,.65);
+	opacity: 1;
+	-webkit-transition: ease-in .25s;
+}
+
+#image-1:hover #overlay, #image-2:hover #overlay, #image-3:hover #overlay {
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: ease-in .25s;
+}
+
+#image-2 {
+	background: url('images/festival-img.jpg') no-repeat center;
+	position: relative;
+	height: 240px;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#image-3 {
+	background: url('images/schoolhouse-img.jpg') no-repeat;
+	position: relative;
+	height: 240px;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.caption {
+	position: absolute;
+	bottom: 0;
+	background: linear-gradient(180deg, transparent 0%, black 100%);
+	color: #fff;
+	width: 100%;
+	margin: 0;
+	padding: 15px 0 5px 0;
+}
+
+.caption-p {
+	margin: 0;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.tab-table .et_pb_tabs_controls li, .et_pb_tabs_controls li.et_pb_tab_active {
+	padding: 4px 25px;
+	background: #f2f4d7 url('images/woodgrain.jpg');
+}
+
+.tab-table .et_pb_tabs_controls {
+	background: #f2f4d7 url('images/woodgrain.jpg');
+}
+
+.tab-table .et_pb_all_tabs {
+	background: radial-gradient(circle, #8f0000, #670202)!important;
+}
+
+.tab-table .et_pb_all_tabs p {
+	color: #fff;
+}
+
+.tab-table .et_pb_tabs_controls li {
+	border-right: 1px solid #e9e9e9;
+}
+
+.read-more-button a {
+	background: #0d2154;
+	padding: 10px 15px;
+	color: #fff;
+	box-shadow: 0 0 10px #000;
+}
+
+.read-more-button.light a {
+	background: #fff;
+	color: #0d2154;
+	box-shadow: none;
+}
+
+.read-more-button a:hover {
+	background: #e9e9e9;
+	color: #333;
+	-webkit-transition: ease-in .25s;
+}
+
+#explore-sec .et_pb_row {
+	padding-top: 0;
+}
+
+/* IMAGES
+----------------------------------------------------------*/
+
+.wp-caption {
+	width: auto!important;
+}
+
+/*--------------------------------------------------------
+----------------------OUR LOCATIONS-----------------------
+---------------------------------------------------------*/
+
+.no-padding .et_pb_row {
+	padding: 0;
+}
+
+/*--------------------------------------------------------
+-------------------------FOOTER---------------------------
+---------------------------------------------------------*/
+
+#footer-info {
+	color: #fff;
+}
+
+.et-social-icon a {
+	color: #fff;
+}
+
+.et-social-icons li {
+	margin-left: 15px;
+}
+
+#footer-bottom .trip-size {
+	max-height: 20px;
+	max-width: 30px;
+}
+
+/* SIDEBAR RESERVATIONS BOX
+---------------------------------------------------------*/
+
+#wysiwyg_widgets_widget-2 #rez_container, #wysiwyg_widgets_widget-3 #rez_container {
+	background: url('images/taupe-bg.jpg') repeat top left;
+	border: 1px solid #8f0000;
+	border-radius: 5px;
+}
+
+#wysiwyg_widgets_widget-2 #res_form .headertext, #wysiwyg_widgets_widget-3 #res_form .headertext {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+#wysiwyg_widgets_widget-2 #res_form .go_button, #wysiwyg_widgets_widget-3 #res_form .go_button {
+	margin-top: 10px;
+}
+
+#wysiwyg_widgets_widget-2 #res_form .num_select, #wysiwyg_widgets_widget-3 #res_form .num_select {
+	width: 50px;
+	height: 25px;
+}
+
+select.num_select {
+	font-family: initial;
+}
+
+.ui-datepicker {
+	z-index: 1000000!important;
+}
+
+/*--------------------------------------------------------
+---------------------PHOTO GALLERY------------------------
+---------------------------------------------------------*/
+
+.mfp-title {
+	display: none;
+}
+
+/*--------------------------------------------------------
+---------------------MISCELLENEOUS------------------------
+---------------------------------------------------------*/
+
+.display-none {
+	display: none;
+}
+
+.et_mobile_menu {
+	width: 90%!important;
+}
+
+/* RESPONSIVE MENU
+---------------------------------------------------------*/
+
+html #responsive-menu {
+	z-index: 999999;
+	background: #0d2154;
+}
+
+html #responsive-menu .responsive-menu li a {
+	border-top: 1px solid #344b88!important;
+	border-bottom: 1px solid #000;
+}
+
+html #responsive-menu .appendLink {
+	background: #344b88!important;
+}
+
+html #click-menu #RMX {
+	font-size: 40px;
+	top: -2px!important;
+}
+
+html #click-menu {
+	z-index: 999999;
+	background: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	top: 15px;
+}
+
+html #click-menu img, #click-menu .threeLines#RM3Lines, html #click-menu img, #click-menu .threeLines#RMX {
+	margin: 0!important;
+}
+
+ul.social-menu-buttons li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ul.social-menu-buttons img {
+	max-width: 30px;
+}
+
+/*--------------------------------------------------------
+------------------------RESPONSIVE------------------------
+---------------------------------------------------------*/
+
+@media only screen and (min-width: 980px) {
+
+#guest-rooms img {
+	max-width: 350px;
+}
+
+.book-now-button-container {
+	text-align: right!important;
+}
+}
+
+@media only screen and (max-width: 1070px) {
+
+html .et-social-icons, html #top-header {
+	display: none;
+}
+
+#logo {
+	margin: 15px 0;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+
+#et-top-navigation a {
+	font-size: 17px;
+}
+}
+
+@media only screen and (min-width: 1070px)
+                   and (max-width: 1280px) {
+
+#logo {
+	margin-top: 10px;
+	max-height: 40px;
+}
+
+.et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a {
+	font-size: 14px;
+	padding-bottom: 23px;
+}
+
+.et_header_style_left #et-top-navigation {
+	padding-top: 23px;
+}
+
+.nav li ul {
+    top: 38px;
+}
+}
+
+@media only screen and (min-width: 1100px) {
+
+#center-img .et_pb_column_1_2 {
+	width: 535px;
+}
+}
+
+@media only screen and (max-width: 980px) {
+
+.et_pb_row, .container, .et_pb_container {
+  width: 90%;
+}
+
+#logo {
+	margin: 0;
+}
+
+.et_header_style_left #et-top-navigation {
+	padding-top: 15px;
+}
+
+.et_header_style_left .mobile_menu_bar {
+	padding-bottom: 15px;
+}
+
+.book-now-button-container .et_pb_widget.widget_wysiwyg_widgets_widget {
+	margin-bottom: 0!important;
+}
+
+html .et_header_style_left #logo, .et_header_style_split #logo {
+	max-width: 60%;
+}
+
+#top-header .container {
+	padding: 15px 0;
+	text-align: center!important;
+}
+
+#top-header .container div {
+	text-align: center!important;
+	padding: 0!important;
+}
+
+#explore-sec .et_pb_column_1_3 {
+	margin-bottom: 0;
+}
+
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+	width: 100%;
+}
+
+.home-slider .et_pb_slider_0 {
+	min-height: 0;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+.decorated h1:before, .decorated h1:after {
+	display: none;
+}
+
+#res_form input {
+	width: 100%;
+	display: block;
+}
+
+#res_form input.go_button {
+	max-width: 40px;
+	margin: 10px auto 0;
+}
+
+h3 {
+	line-height: 28px;
+}
+
+html #cta {
+	margin-bottom: 0;
+}
+
+#et-info {
+	display: none;
+}
+
+html #top-header .container {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+#explore-sec img {
+	height: 140px;
+}
+
+#image-1, #image-2, #image-3 {
+	height: 140px;
+}
+
+/* GUEST ROOMS HOME PAGE
+---------------------------------------------------------*/
+
+.guest-room img {
+	max-width: 80%;
+	margin: auto;
+}
+
+.threeup .photo-box, .photo-box {
+	width: 100%;
+	float: none;
+	margin-right: 0;
+	margin-bottom: 5%;
+}
+
+.et_pb_slide {
+	min-height: 200px;
+}
+
+#et_top_search {
+	display: none;
+}
+
+.top-padding {
+	padding-top: 30px;
+}
+
+.no-padding-res, #guest-rooms .et_pb_column {
+	padding: 0;
+}
+
+.home-slider .et_pb_row {
+	width: 100%;
+}
+
+.home-slider .et_pb_column {
+	padding-bottom: 0;
+}
+
+#image-1, #image-2, #image-3 {
+	width: 100%;
+	background-size: cover;
+}
+
+.et_pb_tabs_controls li.et_pb_tab_active {
+	background: #e9e9e9;
+}
+
+.et_pb_tabs_controls li.et_pb_tab_active a {
+  color: #fff;
+}
+
+#et-info, #et-info-email {
+	float: none;
+	margin-top: 10px;
+}
+
+#cta {
+	margin-bottom: 10px;
+	text-align: center;
+	float: none!important;
+}
+}
+
+@media only screen and (min-width: 980px)
+                   and (max-width: 1100px) {
+
+#image-1, #image-2, #image-3 {
+	height: 175px;
+}
+}
+
+@media only screen and (min-width: 768px)
+                   and (max-width: 980px) {
+
+#explore-sec .et_pb_column_1_3 {
+	width: 30.25%;
+	margin-right: 4.5%;
+}
+
+#explore-sec .et_pb_column_1_3:last-child {
+	margin-right: 0;
+}
+}
+
+@media only screen and (max-width: 540px) {
+
+#explore-sec .et_pb_column {
+	width: 100%;
+}
+
+.at-home-bg {
+	background-position: 50% 50%!important;
+}
+}
+
+@media only screen and (min-width: 540px) {
+
+#explore-sec .et_pb_column_8, #explore-sec .et_pb_column_9, #explore-sec .et_pb_column_10 {
+	width: 30.25%!important;
+}
+
+#explore-sec .et_pb_column_8, #explore-sec .et_pb_column_9 {
+	margin-right: 4.5%!important;
+}
+
+#explore-sec .et_pb_column_10 {
+	margin-right: 0!important;
+}
+}
+
+#fancybox-content a:after {
+	content: '\f101';
+	font-family: fontAwesome;
+	position: relative;
+	left: 5px;
+}

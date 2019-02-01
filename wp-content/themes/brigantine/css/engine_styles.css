@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+#rez_container {
+padding: 20px;
+}
+#rez_form {
+padding: 0px;
+margin-top: 0px;
+}
+#rez_container hr {
+color: #fff;
+border: 1px solid #fff;
+margin-top: 14px;
+}
+.headertext {
+font-family: 'GargoyleRRMediumRegular';
+font-weight: 500;
+font-size: 16px;
+color: #8f0000;
+position: relative;
+margin-bottom: -8px;
+padding-bottom: 0px;
+}
+.booking-subheader {
+    padding: 2px 4px 2px 4px !important;
+    background: white;
+    color: #8f0000;
+    font-family: 'arial';
+    position: absolute;
+    top: 65px!important;
+    left: 200px !important;
+    font-size: 12px;
+}
+.property_content .booking-subheader {
+    top: 8px !important;
+    left: 20px !important;
+}
+#rez_container p {
+font-family:Verdana, Geneva, sans-serif;
+font-size: 10px;
+color: #666;
+}
+.date-input {height: 25px; width: 100px;}
+.num_select {height: 25px;}
+.cal_pic {position: relative; margin-bottom: -4px; margin-left: 4px;}
+
+.go_button {
+position: relative;
+margin-bottom: -3px;
+}
