@@ -77,32 +77,7 @@ $('#date_to').datepicker({clickInput:true, dateFormat:'yymmdd'});
 });
 </script>
 
-	<div id="page-container">
-<?php
-	if ( is_page_template( 'page-template-blank.php' ) ) {
-		return;
-	}
-
-	$et_secondary_nav_items = et_divi_get_top_nav_items();
-
-	$et_phone_number = $et_secondary_nav_items->phone_number;
-
-	$et_email = $et_secondary_nav_items->email;
-
-	$et_contact_info_defined = $et_secondary_nav_items->contact_info_defined;
-
-	$show_header_social_icons = $et_secondary_nav_items->show_header_social_icons;
-
-	$et_secondary_nav = $et_secondary_nav_items->secondary_nav;
-
-	$primary_nav_class = 'et_nav_text_color_' . et_get_option( 'primary_nav_text_color', 'dark' );
-
-	$secondary_nav_class = 'et_nav_text_color_' . et_get_option( 'secondary_nav_text_color', 'light' );
-
-	$et_top_info_defined = $et_secondary_nav_items->top_info_defined;
-?>
-
-		<header id="main-header" class="<?php echo esc_attr( $primary_nav_class ); ?>">
+<header id="main-header" class="<?php echo esc_attr( $primary_nav_class ); ?>">
 			<?php if ( $et_top_info_defined ) : ?>
 					<div id="top-header" class="<?php echo esc_attr( $secondary_nav_class ); ?>">
 						<div class="container clearfix">
@@ -221,5 +196,30 @@ $('#date_to').datepicker({clickInput:true, dateFormat:'yymmdd'});
 				</div> <!-- #et-top-navigation -->
 			</div> <!-- .container -->
 		</header> <!-- #main-header -->
+
+	<div id="page-container">
+<?php
+	if ( is_page_template( 'page-template-blank.php' ) ) {
+		return;
+	}
+
+	$et_secondary_nav_items = et_divi_get_top_nav_items();
+
+	$et_phone_number = $et_secondary_nav_items->phone_number;
+
+	$et_email = $et_secondary_nav_items->email;
+
+	$et_contact_info_defined = $et_secondary_nav_items->contact_info_defined;
+
+	$show_header_social_icons = $et_secondary_nav_items->show_header_social_icons;
+
+	$et_secondary_nav = $et_secondary_nav_items->secondary_nav;
+
+	$primary_nav_class = 'et_nav_text_color_' . et_get_option( 'primary_nav_text_color', 'dark' );
+
+	$secondary_nav_class = 'et_nav_text_color_' . et_get_option( 'secondary_nav_text_color', 'light' );
+
+	$et_top_info_defined = $et_secondary_nav_items->top_info_defined;
+?>
 
 		<div id="et-main-area">
