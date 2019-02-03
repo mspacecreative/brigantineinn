@@ -59,7 +59,7 @@
 	height: 100vh;
 }
 
-.arrow-down-button i {
+.arrow-down-button i.fa-angle-down {
 	position: absolute;
 	bottom: 50px;
 	text-align: center;
