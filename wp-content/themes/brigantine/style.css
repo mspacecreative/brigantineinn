@@ -120,7 +120,7 @@
 	font-family: "recherche", "adobe-caslon-pro", serif!important;
 }
 
-.intro-text ~ a {
+/*.intro-text ~ a {
 	position: absolute;
 	bottom: 50px;
 	text-align: center;
@@ -129,7 +129,7 @@
 	left: 50%;
 	margin-left: -19px;
 	color: #fff;
-}
+}*/
 
 /*--------------------------------------------------------
 --------------------------HEADER--------------------------
